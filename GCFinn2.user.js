@@ -4,11 +4,14 @@
 // @version      1.0
 // @description  Adds map link for "Finn kart" to Geocaching.com cache listings
 // @author       GorgonVaktmester
+// @updateURL    https://github.com/GorgonVaktmester/GCFinn2/raw/main/GCFinn2.user.js
+// @downloadURL  https://github.com/GorgonVaktmester/GCFinn2/raw/main/GCFinn2.user.js
+// @supportURL   https://github.com/GorgonVaktmester/GCFinn2/issues
 // @include      http://*geocaching.com/geocache/*
 // @include      http://*geocaching.com/seek/cache_details.aspx*
 // @include      https://*geocaching.com/geocache/*
 // @include      https://*geocaching.com/seek/cache_details.aspx*
-// @icon         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAwUExURXrd/e77/xfD/CfI/DjM/d72/2rZ/VnU/Zvl/ovh/s3y/qzq/kjQ/b3u/v///wa//EY1+sMAAAHzSURBVHja3JfbloMgDEUhCCgN+P9/O3ITWq7Fl5nJS1lHugmQxEjOh0Yq2ibJZZK9aaKQWgDBTTC9FVqSWgDYTTIapueaGADyucZwsNqRS5R1AdJP2slB3cg+xqh5+N4FKDtF2XXh2rbeRXTK7UY4AusAmJuBfgxBpNGVi6UPCT0P3BL0rEDZXBwQd1X3vi+Lw/OvAGScnAHA/fqQEopsXQDkwaYDjKdbsBKVvTh4mXuKj/+4L4px1I2D6DrX+t7CCT4olfYZpfu58Bb3xrzSyczlQnQzOBK2K2iRoJ16wPYw/SUKje5spiKdDBE/V4JLY5Ml7XFN/BKwYWbM++824B7A7X9DI6fOL4lk+aDTrWNbGwF8DGNbGwJc4GBbC4Ardp2JApCyu64FAKnUBJ28wrY2AaBQApIWAJo4YzXAlVHY1t4PEQuAe1FIbGsjgOSuwrS1EQDdQrytjQ4RU4mpa2MA8BKQaWPAXeLr2gQgOlzXZgDATVubAQSH69oUwDtc135DTfzfAEBbJBAWAXCnzLEG0B9v+W8Bvi1VqtpizwBe4Y+k70IbYDsCbgeVvmb2Fjb3Pq206N/EAajVM8j/r5YjEWmtM5sH+JZNwWoo+2+cYzWUw7eOXE4mUm0s5wEs71xWAml/CqAPAZt56sGk/QgwAI9a3mUUBzsJAAAAAElFTkSuQmCC
+// @icon64       data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAAwUExURXrd/e77/xfD/CfI/DjM/d72/2rZ/VnU/Zvl/ovh/s3y/qzq/kjQ/b3u/v///wa//EY1+sMAAAHzSURBVHja3JfbloMgDEUhCCgN+P9/O3ITWq7Fl5nJS1lHugmQxEjOh0Yq2ibJZZK9aaKQWgDBTTC9FVqSWgDYTTIapueaGADyucZwsNqRS5R1AdJP2slB3cg+xqh5+N4FKDtF2XXh2rbeRXTK7UY4AusAmJuBfgxBpNGVi6UPCT0P3BL0rEDZXBwQd1X3vi+Lw/OvAGScnAHA/fqQEopsXQDkwaYDjKdbsBKVvTh4mXuKj/+4L4px1I2D6DrX+t7CCT4olfYZpfu58Bb3xrzSyczlQnQzOBK2K2iRoJ16wPYw/SUKje5spiKdDBE/V4JLY5Ml7XFN/BKwYWbM++824B7A7X9DI6fOL4lk+aDTrWNbGwF8DGNbGwJc4GBbC4Ardp2JApCyu64FAKnUBJ28wrY2AaBQApIWAJo4YzXAlVHY1t4PEQuAe1FIbGsjgOSuwrS1EQDdQrytjQ4RU4mpa2MA8BKQaWPAXeLr2gQgOlzXZgDATVubAQSH69oUwDtc135DTfzfAEBbJBAWAXCnzLEG0B9v+W8Bvi1VqtpizwBe4Y+k70IbYDsCbgeVvmb2Fjb3Pq206N/EAajVM8j/r5YjEWmtM5sH+JZNwWoo+2+cYzWUw7eOXE4mUm0s5wEs71xWAml/CqAPAZt56sGk/QgwAI9a3mUUBzsJAAAAAElFTkSuQmCC
 // ==/UserScript==
 
 //    This script is a rewrite of the script GCFinn made in
